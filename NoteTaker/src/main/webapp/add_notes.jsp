@@ -19,17 +19,19 @@
 			<div class="form-group">
 				<label for="title">Note Title</label> <input
 					required
+					name="title"
 					type="text" 
 					class="form-control" 
 					id="title"
 					aria-describedby="emailHelp" 
-					placeholder="Title">
+					placeholder="Title" />
 			</div>
 			
 			<div class="form-group">
 				<label for="content">Note Content</label> 
 				<textarea 
 				    required
+				    name="content"
 					id="content" 
 					placeholder="Content here" 
 					class="form-control"
